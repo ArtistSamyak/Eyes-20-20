@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E33E4A772522E42F0042BE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4A762522E42F0042BE35 /* AppDelegate.swift */; };
+		E33E4A792522E42F0042BE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4A782522E42F0042BE35 /* SceneDelegate.swift */; };
+		E33E4A7B2522E42F0042BE35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4A7A2522E42F0042BE35 /* ViewController.swift */; };
+		E33E4A7E2522E42F0042BE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33E4A7C2522E42F0042BE35 /* Main.storyboard */; };
+		E33E4A802522E4320042BE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33E4A7F2522E4320042BE35 /* Assets.xcassets */; };
+		E33E4A832522E4320042BE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33E4A812522E4320042BE35 /* LaunchScreen.storyboard */; };
+		E33E4A8E2522E4320042BE35 /* Eyes_20_20Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4A8D2522E4320042BE35 /* Eyes_20_20Tests.swift */; };
+		E33E4A992522E4320042BE35 /* Eyes_20_20UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4A982522E4320042BE35 /* Eyes_20_20UITests.swift */; };
+		E33E4A9E2522E4320042BE35 /* Eyes 20-20 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E33E4A9D2522E4320042BE35 /* Eyes 20-20 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E33E4AA42522E4320042BE35 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33E4AA22522E4320042BE35 /* Interface.storyboard */; };
+		E33E4AA62522E4330042BE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33E4AA52522E4330042BE35 /* Assets.xcassets */; };
+		E33E4AAD2522E4330042BE35 /* Eyes 20-20 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E33E4AAC2522E4330042BE35 /* Eyes 20-20 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E33E4AB22522E4330042BE35 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AB12522E4330042BE35 /* InterfaceController.swift */; };
+		E33E4AB42522E4330042BE35 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AB32522E4330042BE35 /* ExtensionDelegate.swift */; };
+		E33E4AB62522E4330042BE35 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AB52522E4330042BE35 /* NotificationController.swift */; };
+		E33E4AB82522E4330042BE35 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AB72522E4330042BE35 /* ComplicationController.swift */; };
+		E33E4ABA2522E4340042BE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33E4AB92522E4340042BE35 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E33E4A8A2522E4320042BE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33E4A6B2522E42F0042BE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33E4A722522E42F0042BE35;
+			remoteInfo = "Eyes 20-20";
+		};
+		E33E4A952522E4320042BE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33E4A6B2522E42F0042BE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33E4A722522E42F0042BE35;
+			remoteInfo = "Eyes 20-20";
+		};
+		E33E4A9F2522E4320042BE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33E4A6B2522E42F0042BE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33E4A9C2522E4320042BE35;
+			remoteInfo = "Eyes 20-20 WatchKit App";
+		};
+		E33E4AAE2522E4330042BE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33E4A6B2522E42F0042BE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33E4AAB2522E4330042BE35;
+			remoteInfo = "Eyes 20-20 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E33E4AC22522E4340042BE35 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E33E4AAD2522E4330042BE35 /* Eyes 20-20 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4AC62522E4340042BE35 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E33E4A9E2522E4320042BE35 /* Eyes 20-20 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E33E4A732522E42F0042BE35 /* Eyes 20-20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eyes 20-20.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33E4A762522E42F0042BE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E33E4A782522E42F0042BE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E33E4A7A2522E42F0042BE35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E33E4A7D2522E42F0042BE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E33E4A7F2522E4320042BE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E33E4A822522E4320042BE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E33E4A842522E4320042BE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33E4A892522E4320042BE35 /* Eyes 20-20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eyes 20-20Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33E4A8D2522E4320042BE35 /* Eyes_20_20Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eyes_20_20Tests.swift; sourceTree = "<group>"; };
+		E33E4A8F2522E4320042BE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33E4A942522E4320042BE35 /* Eyes 20-20UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eyes 20-20UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33E4A982522E4320042BE35 /* Eyes_20_20UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eyes_20_20UITests.swift; sourceTree = "<group>"; };
+		E33E4A9A2522E4320042BE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33E4A9D2522E4320042BE35 /* Eyes 20-20 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eyes 20-20 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33E4AA32522E4320042BE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E33E4AA52522E4330042BE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E33E4AA72522E4330042BE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33E4AAC2522E4330042BE35 /* Eyes 20-20 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Eyes 20-20 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33E4AB12522E4330042BE35 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E33E4AB32522E4330042BE35 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E33E4AB52522E4330042BE35 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E33E4AB72522E4330042BE35 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		E33E4AB92522E4340042BE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E33E4ABB2522E4340042BE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33E4ABC2522E4340042BE35 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E33E4A702522E42F0042BE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4A862522E4320042BE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4A912522E4320042BE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4AA92522E4330042BE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E33E4A6A2522E42F0042BE35 = {
+			isa = PBXGroup;
+			children = (
+				E33E4A752522E42F0042BE35 /* Eyes 20-20 */,
+				E33E4A8C2522E4320042BE35 /* Eyes 20-20Tests */,
+				E33E4A972522E4320042BE35 /* Eyes 20-20UITests */,
+				E33E4AA12522E4320042BE35 /* Eyes 20-20 WatchKit App */,
+				E33E4AB02522E4330042BE35 /* Eyes 20-20 WatchKit Extension */,
+				E33E4A742522E42F0042BE35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E33E4A742522E42F0042BE35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4A732522E42F0042BE35 /* Eyes 20-20.app */,
+				E33E4A892522E4320042BE35 /* Eyes 20-20Tests.xctest */,
+				E33E4A942522E4320042BE35 /* Eyes 20-20UITests.xctest */,
+				E33E4A9D2522E4320042BE35 /* Eyes 20-20 WatchKit App.app */,
+				E33E4AAC2522E4330042BE35 /* Eyes 20-20 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E33E4A752522E42F0042BE35 /* Eyes 20-20 */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4A762522E42F0042BE35 /* AppDelegate.swift */,
+				E33E4A782522E42F0042BE35 /* SceneDelegate.swift */,
+				E33E4A7A2522E42F0042BE35 /* ViewController.swift */,
+				E33E4A7C2522E42F0042BE35 /* Main.storyboard */,
+				E33E4A7F2522E4320042BE35 /* Assets.xcassets */,
+				E33E4A812522E4320042BE35 /* LaunchScreen.storyboard */,
+				E33E4A842522E4320042BE35 /* Info.plist */,
+			);
+			path = "Eyes 20-20";
+			sourceTree = "<group>";
+		};
+		E33E4A8C2522E4320042BE35 /* Eyes 20-20Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4A8D2522E4320042BE35 /* Eyes_20_20Tests.swift */,
+				E33E4A8F2522E4320042BE35 /* Info.plist */,
+			);
+			path = "Eyes 20-20Tests";
+			sourceTree = "<group>";
+		};
+		E33E4A972522E4320042BE35 /* Eyes 20-20UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4A982522E4320042BE35 /* Eyes_20_20UITests.swift */,
+				E33E4A9A2522E4320042BE35 /* Info.plist */,
+			);
+			path = "Eyes 20-20UITests";
+			sourceTree = "<group>";
+		};
+		E33E4AA12522E4320042BE35 /* Eyes 20-20 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4AA22522E4320042BE35 /* Interface.storyboard */,
+				E33E4AA52522E4330042BE35 /* Assets.xcassets */,
+				E33E4AA72522E4330042BE35 /* Info.plist */,
+			);
+			path = "Eyes 20-20 WatchKit App";
+			sourceTree = "<group>";
+		};
+		E33E4AB02522E4330042BE35 /* Eyes 20-20 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4AB12522E4330042BE35 /* InterfaceController.swift */,
+				E33E4AB32522E4330042BE35 /* ExtensionDelegate.swift */,
+				E33E4AB52522E4330042BE35 /* NotificationController.swift */,
+				E33E4AB72522E4330042BE35 /* ComplicationController.swift */,
+				E33E4AB92522E4340042BE35 /* Assets.xcassets */,
+				E33E4ABB2522E4340042BE35 /* Info.plist */,
+				E33E4ABC2522E4340042BE35 /* PushNotificationPayload.apns */,
+			);
+			path = "Eyes 20-20 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E33E4A722522E42F0042BE35 /* Eyes 20-20 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33E4AC72522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20" */;
+			buildPhases = (
+				E33E4A6F2522E42F0042BE35 /* Sources */,
+				E33E4A702522E42F0042BE35 /* Frameworks */,
+				E33E4A712522E42F0042BE35 /* Resources */,
+				E33E4AC62522E4340042BE35 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33E4AA02522E4320042BE35 /* PBXTargetDependency */,
+			);
+			name = "Eyes 20-20";
+			productName = "Eyes 20-20";
+			productReference = E33E4A732522E42F0042BE35 /* Eyes 20-20.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E33E4A882522E4320042BE35 /* Eyes 20-20Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33E4ACA2522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20Tests" */;
+			buildPhases = (
+				E33E4A852522E4320042BE35 /* Sources */,
+				E33E4A862522E4320042BE35 /* Frameworks */,
+				E33E4A872522E4320042BE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33E4A8B2522E4320042BE35 /* PBXTargetDependency */,
+			);
+			name = "Eyes 20-20Tests";
+			productName = "Eyes 20-20Tests";
+			productReference = E33E4A892522E4320042BE35 /* Eyes 20-20Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E33E4A932522E4320042BE35 /* Eyes 20-20UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33E4ACD2522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20UITests" */;
+			buildPhases = (
+				E33E4A902522E4320042BE35 /* Sources */,
+				E33E4A912522E4320042BE35 /* Frameworks */,
+				E33E4A922522E4320042BE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33E4A962522E4320042BE35 /* PBXTargetDependency */,
+			);
+			name = "Eyes 20-20UITests";
+			productName = "Eyes 20-20UITests";
+			productReference = E33E4A942522E4320042BE35 /* Eyes 20-20UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E33E4A9C2522E4320042BE35 /* Eyes 20-20 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33E4AC32522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20 WatchKit App" */;
+			buildPhases = (
+				E33E4A9B2522E4320042BE35 /* Resources */,
+				E33E4AC22522E4340042BE35 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33E4AAF2522E4330042BE35 /* PBXTargetDependency */,
+			);
+			name = "Eyes 20-20 WatchKit App";
+			productName = "Eyes 20-20 WatchKit App";
+			productReference = E33E4A9D2522E4320042BE35 /* Eyes 20-20 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E33E4AAB2522E4330042BE35 /* Eyes 20-20 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33E4ABF2522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20 WatchKit Extension" */;
+			buildPhases = (
+				E33E4AA82522E4330042BE35 /* Sources */,
+				E33E4AA92522E4330042BE35 /* Frameworks */,
+				E33E4AAA2522E4330042BE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eyes 20-20 WatchKit Extension";
+			productName = "Eyes 20-20 WatchKit Extension";
+			productReference = E33E4AAC2522E4330042BE35 /* Eyes 20-20 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E33E4A6B2522E42F0042BE35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E33E4A722522E42F0042BE35 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E33E4A882522E4320042BE35 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E33E4A722522E42F0042BE35;
+					};
+					E33E4A932522E4320042BE35 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E33E4A722522E42F0042BE35;
+					};
+					E33E4A9C2522E4320042BE35 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E33E4AAB2522E4330042BE35 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E33E4A6E2522E42F0042BE35 /* Build configuration list for PBXProject "Eyes 20-20" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E33E4A6A2522E42F0042BE35;
+			productRefGroup = E33E4A742522E42F0042BE35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E33E4A722522E42F0042BE35 /* Eyes 20-20 */,
+				E33E4A882522E4320042BE35 /* Eyes 20-20Tests */,
+				E33E4A932522E4320042BE35 /* Eyes 20-20UITests */,
+				E33E4A9C2522E4320042BE35 /* Eyes 20-20 WatchKit App */,
+				E33E4AAB2522E4330042BE35 /* Eyes 20-20 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E33E4A712522E42F0042BE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33E4A832522E4320042BE35 /* LaunchScreen.storyboard in Resources */,
+				E33E4A802522E4320042BE35 /* Assets.xcassets in Resources */,
+				E33E4A7E2522E42F0042BE35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4A872522E4320042BE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4A922522E4320042BE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4A9B2522E4320042BE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33E4AA62522E4330042BE35 /* Assets.xcassets in Resources */,
+				E33E4AA42522E4320042BE35 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4AAA2522E4330042BE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33E4ABA2522E4340042BE35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E33E4A6F2522E42F0042BE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33E4A7B2522E42F0042BE35 /* ViewController.swift in Sources */,
+				E33E4A772522E42F0042BE35 /* AppDelegate.swift in Sources */,
+				E33E4A792522E42F0042BE35 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4A852522E4320042BE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33E4A8E2522E4320042BE35 /* Eyes_20_20Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4A902522E4320042BE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33E4A992522E4320042BE35 /* Eyes_20_20UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E4AA82522E4330042BE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33E4AB62522E4330042BE35 /* NotificationController.swift in Sources */,
+				E33E4AB82522E4330042BE35 /* ComplicationController.swift in Sources */,
+				E33E4AB42522E4330042BE35 /* ExtensionDelegate.swift in Sources */,
+				E33E4AB22522E4330042BE35 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E33E4A8B2522E4320042BE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33E4A722522E42F0042BE35 /* Eyes 20-20 */;
+			targetProxy = E33E4A8A2522E4320042BE35 /* PBXContainerItemProxy */;
+		};
+		E33E4A962522E4320042BE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33E4A722522E42F0042BE35 /* Eyes 20-20 */;
+			targetProxy = E33E4A952522E4320042BE35 /* PBXContainerItemProxy */;
+		};
+		E33E4AA02522E4320042BE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33E4A9C2522E4320042BE35 /* Eyes 20-20 WatchKit App */;
+			targetProxy = E33E4A9F2522E4320042BE35 /* PBXContainerItemProxy */;
+		};
+		E33E4AAF2522E4330042BE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33E4AAB2522E4330042BE35 /* Eyes 20-20 WatchKit Extension */;
+			targetProxy = E33E4AAE2522E4330042BE35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E33E4A7C2522E42F0042BE35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33E4A7D2522E42F0042BE35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E33E4A812522E4320042BE35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33E4A822522E4320042BE35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E33E4AA22522E4320042BE35 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33E4AA32522E4320042BE35 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E33E4ABD2522E4340042BE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E33E4ABE2522E4340042BE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E33E4AC02522E4340042BE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				INFOPLIST_FILE = "Eyes 20-20 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		E33E4AC12522E4340042BE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				INFOPLIST_FILE = "Eyes 20-20 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		E33E4AC42522E4340042BE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				IBSC_MODULE = Eyes_20_20_WatchKit_Extension;
+				INFOPLIST_FILE = "Eyes 20-20 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		E33E4AC52522E4340042BE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				IBSC_MODULE = Eyes_20_20_WatchKit_Extension;
+				INFOPLIST_FILE = "Eyes 20-20 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		E33E4AC82522E4340042BE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				INFOPLIST_FILE = "Eyes 20-20/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E33E4AC92522E4340042BE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				INFOPLIST_FILE = "Eyes 20-20/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E33E4ACB2522E4340042BE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				INFOPLIST_FILE = "Eyes 20-20Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eyes 20-20.app/Eyes 20-20";
+			};
+			name = Debug;
+		};
+		E33E4ACC2522E4340042BE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				INFOPLIST_FILE = "Eyes 20-20Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eyes 20-20.app/Eyes 20-20";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E33E4ACE2522E4340042BE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				INFOPLIST_FILE = "Eyes 20-20UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eyes 20-20";
+			};
+			name = Debug;
+		};
+		E33E4ACF2522E4340042BE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9D632BTGH;
+				INFOPLIST_FILE = "Eyes 20-20UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Eyes-20-20UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eyes 20-20";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E33E4A6E2522E42F0042BE35 /* Build configuration list for PBXProject "Eyes 20-20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33E4ABD2522E4340042BE35 /* Debug */,
+				E33E4ABE2522E4340042BE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33E4ABF2522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33E4AC02522E4340042BE35 /* Debug */,
+				E33E4AC12522E4340042BE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33E4AC32522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33E4AC42522E4340042BE35 /* Debug */,
+				E33E4AC52522E4340042BE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33E4AC72522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33E4AC82522E4340042BE35 /* Debug */,
+				E33E4AC92522E4340042BE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33E4ACA2522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33E4ACB2522E4340042BE35 /* Debug */,
+				E33E4ACC2522E4340042BE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33E4ACD2522E4340042BE35 /* Build configuration list for PBXNativeTarget "Eyes 20-20UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33E4ACE2522E4340042BE35 /* Debug */,
+				E33E4ACF2522E4340042BE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E33E4A6B2522E42F0042BE35 /* Project object */;
+}
