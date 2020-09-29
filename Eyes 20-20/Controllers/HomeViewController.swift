@@ -42,10 +42,12 @@ class HomeViewController: UIViewController {
     
     @IBAction func resetBtn(_ sender: UIButton) {
         timer?.invalidate()
+        instrBtn.alpha = 1
         viewDidLoad()
     }
     
     @IBAction func settings(_ sender: UIButton) {
+        
         
     }
     
