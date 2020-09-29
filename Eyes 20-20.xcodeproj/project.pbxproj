@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E33E4A772522E42F0042BE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4A762522E42F0042BE35 /* AppDelegate.swift */; };
 		E33E4A792522E42F0042BE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4A782522E42F0042BE35 /* SceneDelegate.swift */; };
-		E33E4A7B2522E42F0042BE35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4A7A2522E42F0042BE35 /* ViewController.swift */; };
 		E33E4A7E2522E42F0042BE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33E4A7C2522E42F0042BE35 /* Main.storyboard */; };
 		E33E4A802522E4320042BE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33E4A7F2522E4320042BE35 /* Assets.xcassets */; };
 		E33E4A832522E4320042BE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33E4A812522E4320042BE35 /* LaunchScreen.storyboard */; };
@@ -24,6 +23,8 @@
 		E33E4AB62522E4330042BE35 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AB52522E4330042BE35 /* NotificationController.swift */; };
 		E33E4AB82522E4330042BE35 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AB72522E4330042BE35 /* ComplicationController.swift */; };
 		E33E4ABA2522E4340042BE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33E4AB92522E4340042BE35 /* Assets.xcassets */; };
+		E33E4AE12522E6F40042BE35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AE02522E6F40042BE35 /* HomeViewController.swift */; };
+		E33E4AF02522FACF0042BE35 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AEF2522FACF0042BE35 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +87,6 @@
 		E33E4A732522E42F0042BE35 /* Eyes 20-20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eyes 20-20.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33E4A762522E42F0042BE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E33E4A782522E42F0042BE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E33E4A7A2522E42F0042BE35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E33E4A7D2522E42F0042BE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E33E4A7F2522E4320042BE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E33E4A822522E4320042BE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,6 +109,8 @@
 		E33E4AB92522E4340042BE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E33E4ABB2522E4340042BE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E33E4ABC2522E4340042BE35 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E33E4AE02522E6F40042BE35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E33E4AEF2522FACF0042BE35 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				E33E4A752522E42F0042BE35 /* Eyes 20-20 */,
+				E33E4AA12522E4320042BE35 /* Eyes 20-20 WatchKit App */,
 				E33E4A8C2522E4320042BE35 /* Eyes 20-20Tests */,
 				E33E4A972522E4320042BE35 /* Eyes 20-20UITests */,
-				E33E4AA12522E4320042BE35 /* Eyes 20-20 WatchKit App */,
 				E33E4AB02522E4330042BE35 /* Eyes 20-20 WatchKit Extension */,
 				E33E4A742522E42F0042BE35 /* Products */,
 			);
@@ -172,7 +174,8 @@
 			children = (
 				E33E4A762522E42F0042BE35 /* AppDelegate.swift */,
 				E33E4A782522E42F0042BE35 /* SceneDelegate.swift */,
-				E33E4A7A2522E42F0042BE35 /* ViewController.swift */,
+				E33E4AE72522F6760042BE35 /* Views */,
+				E33E4ADF2522E6D30042BE35 /* Controllers */,
 				E33E4A7C2522E42F0042BE35 /* Main.storyboard */,
 				E33E4A7F2522E4320042BE35 /* Assets.xcassets */,
 				E33E4A812522E4320042BE35 /* LaunchScreen.storyboard */,
@@ -221,6 +224,22 @@
 				E33E4ABC2522E4340042BE35 /* PushNotificationPayload.apns */,
 			);
 			path = "Eyes 20-20 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E33E4ADF2522E6D30042BE35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4AE02522E6F40042BE35 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E33E4AE72522F6760042BE35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4AEF2522FACF0042BE35 /* CustomButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,9 +433,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E33E4A7B2522E42F0042BE35 /* ViewController.swift in Sources */,
+				E33E4AF02522FACF0042BE35 /* CustomButton.swift in Sources */,
 				E33E4A772522E42F0042BE35 /* AppDelegate.swift in Sources */,
 				E33E4A792522E42F0042BE35 /* SceneDelegate.swift in Sources */,
+				E33E4AE12522E6F40042BE35 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

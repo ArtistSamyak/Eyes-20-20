@@ -1,24 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Eyes_20_20" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkimg" translatesAutoresizingMaskIntoConstraints="NO" id="2dx-BS-Ag0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUa-x6-IpT">
+                                <rect key="frame" x="354" y="44" width="40" height="39.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="cLZ-ta-Nd5"/>
+                                    <constraint firstAttribute="height" constant="40" id="mPx-gf-2cN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" backgroundImage="gearshape.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sJ9-tA-EsD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZi-NF-iPi">
+                                <rect key="frame" x="97" y="194" width="220" height="108.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="OQr-V2-PeE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="90"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="v6d-N8-Qf9">
+                                <rect key="frame" x="50" y="710" width="314" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e71-NM-6Bv" customClass="CustomButton" customModule="Eyes_20_20" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="48"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29917594178082191" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="START">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="startbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZAv-dC-xKt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qZ-ay-I8e" customClass="CustomButton" customModule="Eyes_20_20" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="52" width="314" height="48"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.3029751712" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="STOP">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="stopbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pkN-M5-e16"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dps-xC-DFx" customClass="CustomButton" customModule="Eyes_20_20" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="104" width="314" height="48"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.3029751712" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="RESET">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="resetbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oj7-Ac-4GM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="152" id="FAP-hI-W7U"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwN-8C-70J" userLabel="Instr Btn" customClass="CustomButton" customModule="Eyes_20_20" customModuleProvider="target">
+                                <rect key="frame" x="20" y="488" width="374" height="80"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.3029751712" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="B0L-hU-OLo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="30"/>
+                                <state key="normal" title="Take a break">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="instrBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Vu-ec-kl7"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DUa-x6-IpT" secondAttribute="trailing" constant="20" id="2gi-Ct-N46"/>
+                            <constraint firstItem="v6d-N8-Qf9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="4Eh-7x-UTp"/>
+                            <constraint firstItem="VZi-NF-iPi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="HnP-Ny-uOC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VZi-NF-iPi" secondAttribute="trailing" constant="97" id="Kc3-n1-LdH"/>
+                            <constraint firstItem="wwN-8C-70J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="80" id="NAH-H5-W4r"/>
+                            <constraint firstItem="2dx-BS-Ag0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Uqm-l9-LEq"/>
+                            <constraint firstAttribute="bottom" secondItem="2dx-BS-Ag0" secondAttribute="bottom" id="YRx-QF-NIW"/>
+                            <constraint firstItem="DUa-x6-IpT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Yhj-nB-83C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v6d-N8-Qf9" secondAttribute="trailing" constant="50" id="g6k-Q4-auZ"/>
+                            <constraint firstItem="v6d-N8-Qf9" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="oIx-EM-ZHv"/>
+                            <constraint firstItem="2dx-BS-Ag0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rdS-ca-cne"/>
+                            <constraint firstItem="VZi-NF-iPi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-200" id="sZz-fZ-xYl"/>
+                            <constraint firstItem="2dx-BS-Ag0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wXY-9Q-DcX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wwN-8C-70J" secondAttribute="trailing" constant="20" id="xc3-4s-Dif"/>
+                            <constraint firstItem="wwN-8C-70J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="y54-Og-LzN"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnStack" destination="v6d-N8-Qf9" id="VcA-Nd-Rul"/>
+                        <outlet property="instrBtn" destination="wwN-8C-70J" id="5Y6-Tg-OUx"/>
+                        <outlet property="start" destination="e71-NM-6Bv" id="iFx-an-JDh"/>
+                        <outlet property="stop" destination="4qZ-ay-I8e" id="778-dE-Bi8"/>
+                        <outlet property="timeleft" destination="VZi-NF-iPi" id="SzI-QN-nO9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="82.366071428571431"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bkimg" width="621" height="1104"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
