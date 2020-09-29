@@ -115,6 +115,9 @@
                                 <state key="normal" title="&lt;">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="backbtn:" destination="0nm-rY-ayL" eventType="touchUpInside" id="lBb-ed-C01"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="QrC-Xm-OhP">
                                 <rect key="frame" x="47" y="103" width="320" height="570"/>

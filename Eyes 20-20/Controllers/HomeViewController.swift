@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class HomeViewController: UIViewController {
     
@@ -20,6 +21,8 @@ class HomeViewController: UIViewController {
     var breaktime = 20
     
     var stopTimer = false
+    
+    var avPlayer : AVAudioPlayer?
         
     override func viewDidLoad() {
        
@@ -57,6 +60,7 @@ class HomeViewController: UIViewController {
         if instrBtn.titleLabel?.text == "Let's start!" {
             var count = worktime
             DispatchQueue.main.asyncAfter(deadline: .now() + 1201) {
+                self.playSound(index: AllSongsData.workRtIndex)
                 self.timer?.invalidate()
                 self.instrBtn.alpha = 1
                 self.timeleft.text = "05:00"
@@ -77,6 +81,7 @@ class HomeViewController: UIViewController {
         }else if instrBtn.titleLabel?.text == "Let's take a break!" {
             var count = breaktime
             DispatchQueue.main.asyncAfter(deadline: .now() + 21) {
+                self.playSound(index: AllSongsData.breakRtIndex)
                 self.timer?.invalidate()
                 self.instrBtn.alpha = 1
                 self.timeleft.text = "20:00"
@@ -92,6 +97,15 @@ class HomeViewController: UIViewController {
                 
             })
             
+        }
+    }
+    
+    func playSound(index : Int) {
+        do{
+            avPlayer = try AVAudioPlayer(contentsOf: AllSongsData.songArry[index].Url)
+            avPlayer?.play()
+        }catch{
+            print(error.localizedDescription)
         }
     }
     

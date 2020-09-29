@@ -26,6 +26,25 @@
 		E33E4AE12522E6F40042BE35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AE02522E6F40042BE35 /* HomeViewController.swift */; };
 		E33E4AF02522FACF0042BE35 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4AEF2522FACF0042BE35 /* CustomButton.swift */; };
 		E33E4B1D25233C040042BE35 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4B1C25233C040042BE35 /* SettingsVC.swift */; };
+		E33E4B3A25234F880042BE35 /* mario.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B2725234F880042BE35 /* mario.mp3 */; };
+		E33E4B3B25234F880042BE35 /* hulk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B2825234F880042BE35 /* hulk.mp3 */; };
+		E33E4B3C25234F880042BE35 /* rush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B2925234F880042BE35 /* rush.mp3 */; };
+		E33E4B3D25234F880042BE35 /* joker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B2A25234F880042BE35 /* joker.mp3 */; };
+		E33E4B3E25234F880042BE35 /* superman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B2B25234F880042BE35 /* superman.mp3 */; };
+		E33E4B3F25234F880042BE35 /* oh no.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B2C25234F880042BE35 /* oh no.mp3 */; };
+		E33E4B4025234F880042BE35 /* avengers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B2D25234F880042BE35 /* avengers.mp3 */; };
+		E33E4B4125234F880042BE35 /* abe yaar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B2E25234F880042BE35 /* abe yaar.mp3 */; };
+		E33E4B4225234F880042BE35 /* enemies ahead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B2F25234F880042BE35 /* enemies ahead.mp3 */; };
+		E33E4B4325234F880042BE35 /* mr bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B3025234F880042BE35 /* mr bean.mp3 */; };
+		E33E4B4425234F880042BE35 /* spiderman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B3125234F880042BE35 /* spiderman.mp3 */; };
+		E33E4B4525234F880042BE35 /* i love you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B3225234F880042BE35 /* i love you.mp3 */; };
+		E33E4B4625234F880042BE35 /* ipl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B3325234F880042BE35 /* ipl.mp3 */; };
+		E33E4B4725234F880042BE35 /* pikachu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B3425234F880042BE35 /* pikachu.mp3 */; };
+		E33E4B4825234F880042BE35 /* promise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B3525234F880042BE35 /* promise.mp3 */; };
+		E33E4B4925234F880042BE35 /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B3625234F880042BE35 /* whistle.mp3 */; };
+		E33E4B4A25234F880042BE35 /* phiniears & pherb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33E4B3725234F880042BE35 /* phiniears & pherb.mp3 */; };
+		E33E4B52252351850042BE35 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4B51252351850042BE35 /* Songs.swift */; };
+		E33E4B59252353460042BE35 /* AllSongsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E4B58252353460042BE35 /* AllSongsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +132,25 @@
 		E33E4AE02522E6F40042BE35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E33E4AEF2522FACF0042BE35 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		E33E4B1C25233C040042BE35 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		E33E4B2725234F880042BE35 /* mario.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mario.mp3; sourceTree = "<group>"; };
+		E33E4B2825234F880042BE35 /* hulk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hulk.mp3; sourceTree = "<group>"; };
+		E33E4B2925234F880042BE35 /* rush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rush.mp3; sourceTree = "<group>"; };
+		E33E4B2A25234F880042BE35 /* joker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = joker.mp3; sourceTree = "<group>"; };
+		E33E4B2B25234F880042BE35 /* superman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = superman.mp3; sourceTree = "<group>"; };
+		E33E4B2C25234F880042BE35 /* oh no.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh no.mp3"; sourceTree = "<group>"; };
+		E33E4B2D25234F880042BE35 /* avengers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = avengers.mp3; sourceTree = "<group>"; };
+		E33E4B2E25234F880042BE35 /* abe yaar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "abe yaar.mp3"; sourceTree = "<group>"; };
+		E33E4B2F25234F880042BE35 /* enemies ahead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "enemies ahead.mp3"; sourceTree = "<group>"; };
+		E33E4B3025234F880042BE35 /* mr bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mr bean.mp3"; sourceTree = "<group>"; };
+		E33E4B3125234F880042BE35 /* spiderman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spiderman.mp3; sourceTree = "<group>"; };
+		E33E4B3225234F880042BE35 /* i love you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i love you.mp3"; sourceTree = "<group>"; };
+		E33E4B3325234F880042BE35 /* ipl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ipl.mp3; sourceTree = "<group>"; };
+		E33E4B3425234F880042BE35 /* pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pikachu.mp3; sourceTree = "<group>"; };
+		E33E4B3525234F880042BE35 /* promise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = promise.mp3; sourceTree = "<group>"; };
+		E33E4B3625234F880042BE35 /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
+		E33E4B3725234F880042BE35 /* phiniears & pherb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "phiniears & pherb.mp3"; sourceTree = "<group>"; };
+		E33E4B51252351850042BE35 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		E33E4B58252353460042BE35 /* AllSongsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSongsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,9 +214,11 @@
 			children = (
 				E33E4A762522E42F0042BE35 /* AppDelegate.swift */,
 				E33E4A782522E42F0042BE35 /* SceneDelegate.swift */,
+				E33E4B502523516B0042BE35 /* Models */,
 				E33E4AE72522F6760042BE35 /* Views */,
 				E33E4ADF2522E6D30042BE35 /* Controllers */,
 				E33E4A7C2522E42F0042BE35 /* Main.storyboard */,
+				E33E4B2425234F880042BE35 /* songs */,
 				E33E4A7F2522E4320042BE35 /* Assets.xcassets */,
 				E33E4A812522E4320042BE35 /* LaunchScreen.storyboard */,
 				E33E4A842522E4320042BE35 /* Info.plist */,
@@ -243,6 +283,39 @@
 				E33E4AEF2522FACF0042BE35 /* CustomButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E33E4B2425234F880042BE35 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4B2725234F880042BE35 /* mario.mp3 */,
+				E33E4B2825234F880042BE35 /* hulk.mp3 */,
+				E33E4B2925234F880042BE35 /* rush.mp3 */,
+				E33E4B2A25234F880042BE35 /* joker.mp3 */,
+				E33E4B2B25234F880042BE35 /* superman.mp3 */,
+				E33E4B2C25234F880042BE35 /* oh no.mp3 */,
+				E33E4B2D25234F880042BE35 /* avengers.mp3 */,
+				E33E4B2E25234F880042BE35 /* abe yaar.mp3 */,
+				E33E4B2F25234F880042BE35 /* enemies ahead.mp3 */,
+				E33E4B3025234F880042BE35 /* mr bean.mp3 */,
+				E33E4B3125234F880042BE35 /* spiderman.mp3 */,
+				E33E4B3225234F880042BE35 /* i love you.mp3 */,
+				E33E4B3325234F880042BE35 /* ipl.mp3 */,
+				E33E4B3425234F880042BE35 /* pikachu.mp3 */,
+				E33E4B3525234F880042BE35 /* promise.mp3 */,
+				E33E4B3625234F880042BE35 /* whistle.mp3 */,
+				E33E4B3725234F880042BE35 /* phiniears & pherb.mp3 */,
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
+		E33E4B502523516B0042BE35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E33E4B51252351850042BE35 /* Songs.swift */,
+				E33E4B58252353460042BE35 /* AllSongsData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,8 +465,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33E4B3C25234F880042BE35 /* rush.mp3 in Resources */,
+				E33E4B4025234F880042BE35 /* avengers.mp3 in Resources */,
+				E33E4B3E25234F880042BE35 /* superman.mp3 in Resources */,
+				E33E4B3B25234F880042BE35 /* hulk.mp3 in Resources */,
+				E33E4B4325234F880042BE35 /* mr bean.mp3 in Resources */,
+				E33E4B4725234F880042BE35 /* pikachu.mp3 in Resources */,
+				E33E4B4525234F880042BE35 /* i love you.mp3 in Resources */,
+				E33E4B4825234F880042BE35 /* promise.mp3 in Resources */,
 				E33E4A832522E4320042BE35 /* LaunchScreen.storyboard in Resources */,
+				E33E4B4A25234F880042BE35 /* phiniears & pherb.mp3 in Resources */,
+				E33E4B4925234F880042BE35 /* whistle.mp3 in Resources */,
+				E33E4B3F25234F880042BE35 /* oh no.mp3 in Resources */,
+				E33E4B3A25234F880042BE35 /* mario.mp3 in Resources */,
+				E33E4B3D25234F880042BE35 /* joker.mp3 in Resources */,
+				E33E4B4625234F880042BE35 /* ipl.mp3 in Resources */,
+				E33E4B4225234F880042BE35 /* enemies ahead.mp3 in Resources */,
 				E33E4A802522E4320042BE35 /* Assets.xcassets in Resources */,
+				E33E4B4125234F880042BE35 /* abe yaar.mp3 in Resources */,
+				E33E4B4425234F880042BE35 /* spiderman.mp3 in Resources */,
 				E33E4A7E2522E42F0042BE35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +526,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33E4B52252351850042BE35 /* Songs.swift in Sources */,
+				E33E4B59252353460042BE35 /* AllSongsData.swift in Sources */,
 				E33E4AF02522FACF0042BE35 /* CustomButton.swift in Sources */,
 				E33E4A772522E42F0042BE35 /* AppDelegate.swift in Sources */,
 				E33E4A792522E42F0042BE35 /* SceneDelegate.swift in Sources */,
