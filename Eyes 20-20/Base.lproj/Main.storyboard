@@ -35,56 +35,15 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZi-NF-iPi">
-                                <rect key="frame" x="97" y="194" width="220" height="108.5"/>
+                                <rect key="frame" x="50" y="193.5" width="314" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="OQr-V2-PeE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="90"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="v6d-N8-Qf9">
-                                <rect key="frame" x="50" y="710" width="314" height="152"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e71-NM-6Bv" customClass="CustomButton" customModule="Eyes_20_20" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="314" height="48"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29917594178082191" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="START">
-                                            <color key="titleColor" systemColor="labelColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="startbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZAv-dC-xKt"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qZ-ay-I8e" customClass="CustomButton" customModule="Eyes_20_20" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="52" width="314" height="48"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.3029751712" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="STOP">
-                                            <color key="titleColor" systemColor="labelColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="stopbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pkN-M5-e16"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dps-xC-DFx" customClass="CustomButton" customModule="Eyes_20_20" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="104" width="314" height="48"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.3029751712" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="RESET">
-                                            <color key="titleColor" systemColor="labelColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="resetbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oj7-Ac-4GM"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="152" id="FAP-hI-W7U"/>
-                                </constraints>
-                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwN-8C-70J" userLabel="Instr Btn" customClass="CustomButton" customModule="Eyes_20_20" customModuleProvider="target">
-                                <rect key="frame" x="20" y="488" width="374" height="80"/>
+                                <rect key="frame" x="20" y="625" width="374" height="80"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.3029751712" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="B0L-hU-OLo"/>
@@ -97,20 +56,34 @@
                                     <action selector="instrBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Vu-ec-kl7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00C-n0-Lgs">
+                                <rect key="frame" x="167" y="409" width="80" height="77.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="7Xb-5p-gvj"/>
+                                    <constraint firstAttribute="width" constant="80" id="BKd-bM-LhY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Bold" family="Bodoni 72 Oldstyle" pointSize="24"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" backgroundImage="repeat" catalog="system">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rG0-Rh-YaX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DUa-x6-IpT" secondAttribute="trailing" constant="20" id="2gi-Ct-N46"/>
-                            <constraint firstItem="v6d-N8-Qf9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="4Eh-7x-UTp"/>
-                            <constraint firstItem="VZi-NF-iPi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="HnP-Ny-uOC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VZi-NF-iPi" secondAttribute="trailing" constant="97" id="Kc3-n1-LdH"/>
-                            <constraint firstItem="wwN-8C-70J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="80" id="NAH-H5-W4r"/>
+                            <constraint firstItem="00C-n0-Lgs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GFs-Iu-GMx"/>
+                            <constraint firstItem="VZi-NF-iPi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="HnP-Ny-uOC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VZi-NF-iPi" secondAttribute="trailing" constant="50" id="Kc3-n1-LdH"/>
+                            <constraint firstItem="wwN-8C-70J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="217" id="NAH-H5-W4r"/>
                             <constraint firstItem="2dx-BS-Ag0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Uqm-l9-LEq"/>
                             <constraint firstAttribute="bottom" secondItem="2dx-BS-Ag0" secondAttribute="bottom" id="YRx-QF-NIW"/>
+                            <constraint firstItem="00C-n0-Lgs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YSR-OQ-mxj"/>
                             <constraint firstItem="DUa-x6-IpT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Yhj-nB-83C"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v6d-N8-Qf9" secondAttribute="trailing" constant="50" id="g6k-Q4-auZ"/>
-                            <constraint firstItem="v6d-N8-Qf9" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="oIx-EM-ZHv"/>
                             <constraint firstItem="2dx-BS-Ag0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rdS-ca-cne"/>
                             <constraint firstItem="VZi-NF-iPi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-200" id="sZz-fZ-xYl"/>
                             <constraint firstItem="2dx-BS-Ag0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wXY-9Q-DcX"/>
@@ -119,10 +92,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="btnStack" destination="v6d-N8-Qf9" id="VcA-Nd-Rul"/>
                         <outlet property="instrBtn" destination="wwN-8C-70J" id="5Y6-Tg-OUx"/>
-                        <outlet property="start" destination="e71-NM-6Bv" id="iFx-an-JDh"/>
-                        <outlet property="stop" destination="4qZ-ay-I8e" id="778-dE-Bi8"/>
                         <outlet property="timeleft" destination="VZi-NF-iPi" id="SzI-QN-nO9"/>
                     </connections>
                 </viewController>
@@ -134,6 +104,7 @@
     <resources>
         <image name="bkimg" width="621" height="1104"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <image name="repeat" catalog="system" width="128" height="99"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
